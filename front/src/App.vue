@@ -19,10 +19,14 @@ export default {
   padding: 0;
 }
 header {
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
+}
+header img {
+  width: 100%;
 }
 #app {
   width: 100%;
