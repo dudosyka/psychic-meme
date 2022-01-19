@@ -4,13 +4,13 @@
     <div class="col">
       <div class="row">
         <NftBox description="Описание" name="LOS DROP" :image=1></NftBox>
-        <NftBox description="Описание" name="LOS DROP" :image=1></NftBox>
-        <NftBox description="Описание" name="LOS DROP" :image=1></NftBox>
+        <NftBox description="Описание" name="LOS DROP" :image=2></NftBox>
+        <NftBox description="Описание" name="LOS DROP" :image=3></NftBox>
       </div>
       <div class="row">
-        <NftBox description="Описание" name="LOS DROP" :image=1></NftBox>
-        <NftBox description="Описание" name="LOS DROP" :image=1></NftBox>
-        <NftBox description="Описание" name="LOS DROP" :image=1></NftBox>
+        <NftBox description="Описание" name="LOS DROP" :image=4></NftBox>
+        <NftBox description="Описание" name="LOS DROP" :image=5></NftBox>
+        <NftBox description="Описание" name="LOS DROP" :image=6></NftBox>
       </div>
     </div>
   </div>

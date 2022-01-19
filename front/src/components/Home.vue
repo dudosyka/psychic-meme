@@ -5,7 +5,7 @@
           <p>YAN SCHAFER</p>
       </div>
       <div class="collection_image">
-          <img src="../assets/collection_image.jpg">
+          <img src="../assets/5.png">
       </div>
       <div class="inf">
         <div class="title">

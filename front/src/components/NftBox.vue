@@ -4,7 +4,12 @@
       <p>YAN SCHAFER</p>
     </div>
     <div class="collection_image">
-      <img id="image" v-if="image == 1" src="../assets/collection_image.jpg">
+      <img id="image" v-if="image == 1" src="../assets/1.png">
+      <img id="image" v-if="image == 2" src="../assets/2.png">
+      <img id="image" v-if="image == 3" src="../assets/3.png">
+      <img id="image" v-if="image == 4" src="../assets/4.png">
+      <img id="image" v-if="image == 5" src="../assets/5.png">
+      <img id="image" v-if="image == 6" src="../assets/6.png">
     </div>
     <div class="inf">
       <div class="title">
