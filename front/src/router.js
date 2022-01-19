@@ -1,6 +1,6 @@
 import VueRouter from 'vue-router'
 import Home from '@/components/Home';
-import View from '@/components/View';
+import View from '@/components/CollectionView';
 
 export default new VueRouter({
     mode: 'history',
