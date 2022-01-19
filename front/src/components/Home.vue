@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    <h1 v-if="!canClime"></h1>
-    <h1 v-else>Clime</h1>
     <div class="nft_box">
       <div class="author">
           <p>YAN SCHAFER</p>
