@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <img src="./assets/nefty_logo.png">
+      <img src="./assets/logo_final.png">
     </header>
     <router-view></router-view>
   </div>
