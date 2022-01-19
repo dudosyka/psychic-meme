@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/time', (req, res, next) => {
+app.get('//time', (req, res, next) => {
    res.end(String(Date.now()));
 });
 
