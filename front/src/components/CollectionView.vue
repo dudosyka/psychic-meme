@@ -3,14 +3,17 @@
     <h2>LOS DROP COLLECTION</h2>
     <div class="col">
       <div class="row">
-        <NftBox description="Описание" name="LOS DROP" :image=1></NftBox>
-        <NftBox description="Описание" name="LOS DROP" :image=2></NftBox>
-        <NftBox description="Описание" name="LOS DROP" :image=3></NftBox>
+        <NftBox description="" name="NFT World" :image=7></NftBox>
+        <NftBox description="" name="Шаман" :image=1></NftBox>
+        <NftBox description="" name="Вино с медведем из КБ" :image=2></NftBox>
       </div>
       <div class="row">
-        <NftBox description="Описание" name="LOS DROP" :image=4></NftBox>
-        <NftBox description="Описание" name="LOS DROP" :image=5></NftBox>
-        <NftBox description="Описание" name="LOS DROP" :image=6></NftBox>
+        <NftBox description="" name="Айфон" :image=3></NftBox>
+        <NftBox description="" name="Наггетсы из светофора" :image=4></NftBox>
+        <NftBox description="" name="Пакет гемов" :image=5></NftBox>
+      </div>
+      <div class="row">
+        <NftBox description="" name="THE LIFE OF SHAMAN" :image=6></NftBox>
       </div>
     </div>
   </div>

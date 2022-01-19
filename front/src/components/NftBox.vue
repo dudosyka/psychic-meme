@@ -1,15 +1,17 @@
 <template>
   <div class="nft_box">
+    <audio id="music" src="../assets/music.mp3"></audio>
     <div class="author">
       <p>YAN SCHAFER</p>
     </div>
     <div class="collection_image">
-      <img id="image" v-if="image == 1" src="../assets/1.png">
-      <img id="image" v-if="image == 2" src="../assets/2.png">
-      <img id="image" v-if="image == 3" src="../assets/3.png">
-      <img id="image" v-if="image == 4" src="../assets/4.png">
-      <img id="image" v-if="image == 5" src="../assets/5.png">
-      <img id="image" v-if="image == 6" src="../assets/6.png">
+      <img id="image1" v-if="image == 1" src="../assets/1.png">
+      <img id="image2" v-if="image == 2" src="../assets/2.png">
+      <img id="image3" v-if="image == 3" src="../assets/3.png">
+      <img id="image4" v-if="image == 4" src="../assets/4.png">
+      <img id="image5" v-if="image == 5" src="../assets/5.png">
+      <img id="image6" v-if="image == 6" src="../assets/6.png">
+      <img id="image7" v-if="image == 7" src="../assets/7.png">
     </div>
     <div class="inf">
       <div class="title">
@@ -36,8 +38,13 @@ export default {
     description: String,
     image: Number
   },
+  data() {
+    return {
+        play: false,
+    }
+  },
   mounted() {
-    const viewer = new Viewer(document.getElementById('image'), {
+    const viewer = new Viewer(document.getElementById('image'+this.image), {
       inline: false,
       toolbar: false,
       navbar: false,
@@ -48,9 +55,15 @@ export default {
       },
     });
   },
+
   methods: {
     view() {
-      document.getElementById('image').click();
+      document.getElementById('image'+this.image).click();
+      if (this.play)
+        return;
+      this.play = true;
+      const audio = document.getElementById('music');
+      audio.play();
     }
   }
 }
