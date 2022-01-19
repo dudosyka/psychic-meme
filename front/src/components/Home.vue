@@ -35,7 +35,7 @@
 </template>
 
 <script>
-// import Api from '../api.js';
+import Api from '../api.js';
 
 export default {
   name: 'Home',
@@ -49,9 +49,9 @@ export default {
   }),
   async created() {
     this.available_count = this.getAvailableCount();
-    // const api = new Api();
-    // const nowTime = await api.time().then(data => parseInt(data));
-    const nowTime = Date.now();
+    const api = new Api();
+    const nowTime = await api.time().then(data => parseInt(data));
+    // const nowTime = Date.now();
     const date = new Date(2022, 0, 20, 0, 0, 0, 0);
     console.log(date.getTime());
     console.log(nowTime);
