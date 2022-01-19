@@ -19,7 +19,7 @@
         <div class="timer">
           <p>МОЖНО ЗАБРАТЬ ЧЕРЕЗ</p>
           <div class="btn">
-            <template v-if="canClime">
+            <template v-if="!canClime">
               <div>{{ hours }}:{{ minutes }}:{{ seconds }}</div>
             </template>
             <template v-else>
